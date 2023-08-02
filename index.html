@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <i class="material-icons">expand_more </i>
+            <span>Now Playing</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+        <div class="img">
+            <img src="" alt="">
+        </div>
+        <div class="songdetails">
+            <p class="name"> </p>
+            <p class="artist"></p>
+        </div>
+        <div class="bar">
+            <div class="progressbar"></div>
+            <div class="time">
+                <span class="current">0.00</span>
+                <span class="duration">0.00</span>
+            </div>
+            <audio class="musicaudio" src=""></audio>
+        </div>
+        <div class="control">
+            <i id="repeat" class="material-icons" title="playlist looped">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i class="material-icons">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="moremusic" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="musics">
+                <div class="row-row">
+                    <i id="music" class="material-icons">queue_music</i>
+                    <span>Music List</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <script src="./music.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
